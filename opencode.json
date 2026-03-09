@@ -1,21 +1,21 @@
 {
-	"$schema": "https://opencode.ai/config.json",
-	"mcp": {
-		"memory": {
-			"command": ["pnpx", "@modelcontextprotocol/server-memory"],
-			"enabled": true,
-			"type": "local"
-		},
-		"sequential-thinking": {
-			"command": ["pnpx", "@modelcontextprotocol/server-sequential-thinking"],
-			"enabled": true,
-			"type": "local"
-		}
-	},
-	"plugin": [
-		"cc-safety-net@0.7.1",
-		"@tarquinen/opencode-dcp@2.1.8",
-		"@franlol/opencode-md-table-formatter@0.0.6",
-		"@plannotator/opencode@0.10.0"
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "memory": {
+      "command": ["pnpx", "@modelcontextprotocol/server-memory"],
+      "enabled": true,
+      "type": "local"
+    },
+    "sequential-thinking": {
+      "command": ["pnpx", "@modelcontextprotocol/server-sequential-thinking"],
+      "enabled": true,
+      "type": "local"
+    }
+  },
+  "plugin": [
+    "cc-safety-net@0.7.1",
+    "@tarquinen/opencode-dcp@2.1.8",
+    "@franlol/opencode-md-table-formatter@0.0.6",
+    "@plannotator/opencode@0.10.0"
   ]
 }

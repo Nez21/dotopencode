@@ -1,6 +1,13 @@
 {
+  "scripts": {
+    "lint": "biome check .",
+    "lint:fix": "biome check --write ."
+  },
   "dependencies": {
-    "@opencode-ai/sdk": "^1.2.23",
-    "@opencode-ai/plugin": "1.2.20"
+    "@opencode-ai/plugin": "1.2.20",
+    "@opencode-ai/sdk": "1.2.23"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.6"
   }
 }
