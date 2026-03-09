@@ -1,0 +1,2 @@
+# dotopencode
+Personal OpenCode setup.
